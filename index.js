@@ -63,7 +63,7 @@ async function main() {
 
       // Set the "decrypt without redirect" URL appropriately
       document.querySelector("#no-redirect").href =
-        `https://jstrieb.github.io/link-lock/decrypt/#${hash}`;
+        `https://sidhu-12.github.io/link-lock/decrypt/#${hash}`;
       return;
     }
 
