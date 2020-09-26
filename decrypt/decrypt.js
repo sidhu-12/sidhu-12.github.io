@@ -116,6 +116,6 @@ function onCopy(id) {
 function main() {
   if (window.location.hash) {
     document.querySelector("#encrypted-url").value =
-      `https://sidhu-12.github.io/link-lock/${window.location.hash}`;
+      `https://sidhu-12.github.io/${window.location.hash}`;
   }
 }
